@@ -23,7 +23,7 @@ except ImportError:
 
 import json
 
-
+# please change cf-ddns.conf to a full path when edit this file in crontab e.g. /overlay/ddns/cf-ddns.conf
 config_file_name = 'cf-ddns.conf'
 
 with open(config_file_name, 'r') as config_file:
