@@ -49,7 +49,7 @@ ip_version = None
 
 try:
     public_ipv4 = urlopen(Request(
-        'http://ipv4.icanhazip.com/')).read().rstrip().decode('utf-8')
+        'http://ip.3322.net/')).read().rstrip().decode('utf-8')
 except URLError as e:
     print('* no public IPv4 address detected')
 
